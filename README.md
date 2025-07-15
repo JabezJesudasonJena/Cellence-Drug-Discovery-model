@@ -40,18 +40,7 @@ Results also include Lipinski & ADMET evaluation, molecular images, and a downlo
 
 ## 🗂 Directory Structure  
 
-```
-cellence/
-├── app.py                  # Flask app with endpoints
-├── molgpt.py               # MolGPT SMILES generation
-├── rdkit_utils.py          # RDKit validation & Lipinski
-├── admet_utils.py          # ADMET prediction
-├── deeppurpose_utils.py    # Binding affinity scoring
-├── image_utils.py          # Molecular image generation
-├── requirements.txt        # Python dependencies
-├── output/                 # Results CSVs and images
-├── venv/                   # (optional) virtual environment
-```
+Cellence.ipynib
 
 ---
 
@@ -59,23 +48,8 @@ cellence/
 
 ### 1️⃣ Clone & Install  
 ```bash
-git clone https://github.com/yourusername/cellence.git
-cd cellence
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+git clone https://github.com/yourusername/Cellence-Drug-Discovery-model.git
 
-### 2️⃣ Run Server  
-```bash
-python app.py
-```
-
-### 3️⃣ Test Endpoints with curl  
-```bash
-curl -X POST http://127.0.0.1:5000/generate -H "Content-Type: application/json" -d '{"prompt": "C"}'
-
-curl -X POST http://127.0.0.1:5000/score -H "Content-Type: application/json" -d '{"smiles": ["CCO", "CCC"], "target": "MVKVGVNGFGRIGRLVTRAAFNSGKVDIVAINDPFIDLNYMVYMF"}'
 ```
 
 ---
@@ -117,7 +91,7 @@ Please open an issue to discuss changes before submitting a PR.
 
 ## 🌐 Connect  
 
-If you’re interested in AI for healthcare, computational biology, or drug design — feel free to connect with me on [LinkedIn](https://linkedin.com/in/your-link) or open a discussion here.  
+If you’re interested in AI for healthcare, computational biology, or drug design — feel free to connect with me on [LinkedIn](https://linkedin.com/in/jabezjena) or open a discussion here.  
 
 ---
 
