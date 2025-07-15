@@ -56,7 +56,6 @@ git clone https://github.com/JabezJesudasonJena/Cellence-Drug-Discovery-model.gi
 | **RDKit**         | Validate, canonicalize, Lipinski evaluation |
 | **DeepPurpose**   | Predict binding affinity |
 | **ADMET predictor** | Estimate ADMET properties |
-| **Flask**         | REST API backend |
 | **Python**        | Core implementation |
 
 ---
