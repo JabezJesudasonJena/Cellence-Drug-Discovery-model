@@ -27,12 +27,6 @@ User → /generate → [MolGPT → RDKit] → Valid SMILES
 
 ---
 
-## 📄 API Endpoints  
-
-| Method | Endpoint    | Input Example | Output |
-|--------|-------------|----------------|--------|
-| POST   | `/generate` | `{ "prompt": "C" }` | `[ "CCO", "CCC", ... ]` |
-| POST   | `/score`    | `{ "smiles": ["CCO", "CCC"], "target": "<protein sequence>" }` | `[ [ "CCO", 0.82 ], [ "CCC", 0.74 ] ]` |
 
 Results also include Lipinski & ADMET evaluation, molecular images, and a downloadable CSV.
 
@@ -48,7 +42,7 @@ Cellence.ipynib
 
 ### 1️⃣ Clone & Install  
 ```bash
-git clone https://github.com/yourusername/Cellence-Drug-Discovery-model.git
+git clone https://github.com/JabezJesudasonJena/Cellence-Drug-Discovery-model.git
 
 ```
 
